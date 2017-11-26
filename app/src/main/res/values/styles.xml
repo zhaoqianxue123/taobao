@@ -1,0 +1,14 @@
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.eBuy</item>
+    </style>
+    <style name="ActionButton.Overflow.eBuy" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu1</item>
+    </style>
+</resources>

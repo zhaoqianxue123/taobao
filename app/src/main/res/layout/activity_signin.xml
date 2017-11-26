@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zz.ebuy.signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:paddingStart="@android:dimen/app_icon_size"
+                tools:ignore="RtlSymmetry" />
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="45sp"
+                android:id="@+id/signin_username"
+                android:inputType="textEmailSubject"
+                tools:ignore="LabelFor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:paddingStart="@android:dimen/app_icon_size"
+                tools:ignore="RtlSymmetry" />
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="45sp"
+                android:id="@+id/signin_passward"
+                android:inputType="textPassword"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/repassword"
+                android:paddingStart="@android:dimen/app_icon_size"
+                tools:ignore="RtlSymmetry" />
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="45sp"
+                android:id="@+id/resignin_passward"
+                android:inputType="textPassword"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+            <Button
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/signyes"
+                android:text="@string/signyes"
+                android:background="@android:color/background_dark"
+                style="?android:buttonBarButtonStyle"/>
+            <Button
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/signno"
+                android:text="@string/signno"
+                android:background="@android:color/darker_gray"
+                style="?android:buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

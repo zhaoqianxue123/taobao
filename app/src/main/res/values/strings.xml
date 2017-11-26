@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eBuy</string>
+    <string name="login">登录</string>
+    <string name="signin">注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="signyes">确认</string>
+    <string name="signno">取消</string>
+    <string name="repassword">确认密码</string>
+</resources>
